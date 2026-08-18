@@ -1,0 +1,200 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    profchaos.scripps.edu (AVX512, FMA3, 754 GB RAM)
+Command: iqtree -s /home/yutianc/sim_proj/sim_seqs/sim.fasta -st CODON -m MG
+Seed:    234590 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 17 14:30:49 2026
+Kernel:  AVX+FMA - 1 threads (384 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 384 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /home/yutianc/sim_proj/sim_seqs/sim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00164199 secs using 14.74% CPU
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code  ...
+Constructing alignment: done in 0.00103593 secs using 99.43% CPU
+Alignment has 97 sequences with 566 columns, 566 distinct patterns
+548 parsimony-informative, 16 singleton sites, 2 constant sites
+                                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.4877e-05 secs using 98.97% CPU
+   1  cds_ABO44068_A/Albany/18/1968_1968_HA                          0.00%    passed     29.75%
+   2  cds_AFG71865_A/Bilthoven/15793/1968_1968_HA                    0.00%    failed      2.64%
+   3  cds_ABB96520_A/Nanjing/49/1977_1977_HA                         0.00%    passed     58.24%
+   4  cds_ABN51132_A/Albany/3/1969_1969_HA                           0.00%    passed     18.84%
+   5  cds_ABO52324_A/Albany/2/1970_1970_HA                           0.00%    passed     18.18%
+   6  cds_ABB80034_A/Hong_Kong/3/1969_1969_HA                        0.00%    passed     41.21%
+   7  cds_ABB80023_A/Hong_Kong/50/1972_1972_HA                       0.00%    passed     71.87%
+   8  cds_ABB82227_A/Hong_Kong/46/1971_1971_HA                       0.00%    passed     78.64%
+   9  cds_ABP49184_A/Memphis/3/1971_1971_HA                          0.00%    passed     37.18%
+  10  cds_AAZ43383_A/Memphis/102/1972_1972_HA                        0.00%    passed     94.20%
+  11  cds_ABD60790_A/Hong_Kong/33/1973_1973_HA                       0.00%    passed     96.57%
+  12  cds_AFG99006_A/Bilthoven/628/1976_1976_HA                      0.00%    passed     59.57%
+  13  cds_ABE12532_A/Port_Chalmers/1/1973_1973_HA                    0.00%    passed     97.78%
+  14  cds_ABB04294_A/Hong_Kong/14/1974_1974_HA                       0.00%    passed     79.48%
+  15  cds_AFG98918_A/Bilthoven/5931/1974_1974_HA                     0.00%    passed     87.45%
+  16  cds_ABB04928_A/Hong_Kong/43/1975_1975_HA                       0.00%    passed     67.74%
+  17  cds_ABQ01366_A/Albany/1/1976_1976_HA                           0.00%    passed     26.14%
+  18  cds_CAA24270_A/Victoria/3/1975_1975_HA                         0.00%    passed     74.68%
+  19  cds_ABC46554_A/Memphis/19/1978_1978_HA                         0.00%    passed     86.34%
+  20  cds_AFG99105_A/Texas/1/1977_1977_HA                            0.00%    passed     74.33%
+  21  cds_ABO33069_A/Albany/14/1978_1978_HA                          0.00%    passed     36.35%
+  22  cds_AFH00714_A/Bangkok/1/1979_1979_HA                          0.00%    passed     75.59%
+  23  cds_AFM68976_A/Bangkok/1/1979_1979_HA                          0.00%    passed     68.26%
+  24  cds_AFG72029_A/Rotterdam/577/1980_1980_HA                      0.00%    passed     74.55%
+  25  cds_AFG72040_A/Bilthoven/4791/1981_1981_HA                     0.00%    passed     97.02%
+  26  cds_AFG99127_A/Lyon/2380/1981_1981_HA                          0.00%    passed     93.01%
+  27  cds_AFG99171_A/Oslo/13676/1983_1983_HA                         0.00%    passed     47.34%
+  28  cds_ABB53751_A/Nanjing/13/1980_1980_HA                         0.00%    passed     37.40%
+  29  cds_AIU46023_A/Netherlands/233/1982_1982_HA                    0.00%    passed     40.75%
+  30  cds_ADJ41805_A/Philippines/2/1982_1982-06-01_HA                0.00%    passed     71.67%
+  31  cds_ABD61529_A/Memphis/33/1983_1983_HA                         0.00%    passed     53.48%
+  32  cds_AHZ13523_A/Caen/1/1984_1984_HA                             0.00%    passed     40.05%
+  33  cds_ABB79799_A/Hong_Kong/4/1984_1984_HA                        0.00%    passed     34.52%
+  34  cds_ABC84531_A/Memphis/5/1985_1985_HA                          0.00%    passed     98.43%
+  35  cds_AFG99204_A/Netherlands/333/1985_1985-02-01_HA              0.00%    passed     97.34%
+  36  cds_AAZ43370_A/Memphis/66/1986_1986_HA                         0.00%    passed     93.30%
+  37  cds_AFG99237_A/Colorado/2/1986_1986_HA                         0.00%    passed     49.98%
+  38  cds_AFG72085_A/Sichuan/2/1987_1987_HA                          0.00%    passed     58.71%
+  39  cds_ABB96509_A/Memphis/13/1988_1988_HA                         0.00%    passed     80.63%
+  40  cds_AFM72120_A/Shanghai/11/1987_1987_HA                        0.00%    passed     87.90%
+  41  cds_AFG99270_A/England/427/1988_1988_HA                        0.00%    passed     93.78%
+  42  cds_AFG72140_A/Singapore/53/1989_1989_HA                       0.00%    passed     83.48%
+  43  cds_AFG99369_A/Singapore/34/1989_1989_HA                       0.00%    passed     99.87%
+  44  cds_AFG99479_A/Victoria/2/1990_1990_HA                         0.00%    passed     96.85%
+  45  cds_ADT79087_A/Netherlands/823/1992_1992_HA                    0.00%    passed     99.88%
+  46  cds_AFG72162_A/Stockholm/20/1991_1991-12-17_HA                 0.00%    passed     91.73%
+  47  cds_AFG99888_A/Paris/467/1991_1991-12-01_HA                    0.00%    passed     99.90%
+  48  cds_AFH00054_A/Victoria/68/1992_1992-07-17_HA                  0.00%    passed     82.71%
+  49  cds_AFH00252_A/Paris/287/1993_1993_HA                          0.00%    passed     91.61%
+  50  cds_AFG99457_A/Shanghai/24/1990_1990_HA                        0.00%    passed     77.43%
+  51  cds_AIU46027_A/Wellington/1/1994_1994_HA                       0.00%    passed     60.52%
+  52  cds_AFH00461_A/Hong_Kong/42/1996_1996-03-04_HA                 0.00%    passed     50.15%
+  53  cds_ABG26901_A/New_York/702/1995_1995-01-09_HA                 0.00%    passed     96.55%
+  54  cds_ABG67201_A/New_York/682/1995_1995-03-01_HA                 0.00%    passed     77.53%
+  55  cds_AFH00175_A/Madrid/G252/1993_1993_HA                        0.00%    passed     79.90%
+  56  cds_AFG72504_A/England/7/1994_1994_HA                          0.00%    passed     85.91%
+  57  cds_ACF36379_A/Hong_Kong/CUHK4529/1997_1997-04-02_HA           0.00%    passed     69.16%
+  58  cds_ACT21466_A/New_York/537/1998_1998-02-05_HA                 0.00%    passed     10.16%
+  59  cds_ABD77895_A/New_York/589/1996_1996-12-18_HA                 0.00%    passed     57.80%
+  60  cds_ABB80148_A/New_York/501/1997_1997-11-26_HA                 0.00%    passed     96.27%
+  61  cds_AAZ74397_A/New_York/316/1999_1999-01-26_HA                 0.00%    passed     55.96%
+  62  cds_ACF36251_A/Hong_Kong/CUHK18886/1998_1998-10-03_HA          0.00%    passed     96.98%
+  63  cds_AEG64889_A/Missouri/NHRC0001/2000_2000-02-07_HA            0.00%    passed     84.75%
+  64  cds_AAZ83266_A/New_York/252/1999_1999-01-12_HA                 0.00%    passed     96.50%
+  65  cds_AAX56510_A/New_York/132/2002_2002-01-27_HA                 0.00%    passed     47.89%
+  66  cds_ABG80205_A/Waikato/4/2000_2000-08-28_HA                    0.00%    passed     96.68%
+  67  cds_ABI92511_A/Western_Australia/13/2001_2001-07-11_HA         0.00%    passed     84.06%
+  68  cds_ACF36383_A/Hong_Kong/CUHK50080/2001_2001-11-08_HA          0.00%    passed     90.31%
+  69  cds_ABS76426_A/Thailand/Siriraj-06/2002_2002_HA                0.00%    passed     72.19%
+  70  cds_AAZ32950_A/Moscow/328/2003_2003_HA                         0.00%    passed     80.47%
+  71  cds_ACF36391_A/Hong_Kong/CUHK50895/2003_2003-07-06_HA          0.00%    passed     99.92%
+  72  cds_ACO36496_A/Hong_Kong/HKU19/2004_2004-06-01_HA              0.00%    passed     99.03%
+  73  cds_AAZ79985_A/New_York/385/2004_2004-12-28_HA                 0.00%    passed     87.79%
+  74  cds_ABU92679_A/Denmark/64/2006_2006_HA                         0.00%    passed     23.89%
+  75  cds_AIW60700_A/BRISBANE/3/2005_2005_HA                         0.00%    passed     86.36%
+  76  cds_ACH69569_A/Guangdong/07/2005_2005_HA                       0.00%    passed     99.61%
+  77  cds_AEG65076_A/Illinois/NHRC0001/2006_2006-02-15_HA            0.00%    passed     99.75%
+  78  cds_ABV30261_A/Texas/UR06-0480/2007_2007-03-02_HA              0.00%    passed     76.77%
+  79  cds_ANN44926_A/Kenya/01/2008_2008_HA                           0.00%    passed     65.08%
+  80  cds_AJJ98777_A/Thailand/SS07028/2007_2007-09-26_HA             0.00%    passed     99.68%
+  81  cds_ACF10331_A/Iowa/02/2008_2008-03-23_HA                      0.00%    passed     83.36%
+  82  cds_ALM05067_A/Bhutan/FLU_BTD_SV0023_CP2/2009_2009-01-15_HA    0.00%    passed     96.51%
+  83  cds_ADK22399_A/Acre/26954/2010_2010-04-04_HA                   0.00%    passed     52.68%
+  84  cds_AFM71754_A/Wisconsin/15/2009_2009_HA                       0.00%    passed     83.10%
+  85  cds_AGK74708_A/Michigan/01/2011_2011-01-04_HA                  0.00%    passed     66.96%
+  86  cds_AGK74652_A/Texas/06/2010_2010-08-13_HA                     0.00%    passed     82.83%
+  87  cds_AGK63003_A/Hormozgan/807/2012_2012-01-04_HA                0.00%    passed     83.15%
+  88  cds_AFN19527_A/Singapore/KK316/2011_2011-08-08_HA              0.00%    passed     85.12%
+  89  cds_BAT21792_A/Ishikawa/45-389v/2012_2012-01-26_HA             0.00%    passed     25.07%
+  90  cds_BAU36354_A/Okinawa/JP-69/2014_2014-02-10_HA                0.00%    passed     89.49%
+  91  cds_AGZ61170_A/North_Carolina/02/2013_2013-01-03_HA            0.00%    passed     90.71%
+  92  cds_AHL97288_A/Boston/YGA_01114/2013_2013-01-01_HA             0.00%    passed     91.60%
+  93  cds_AJE62947_A/Thailand/CU-B11065/2014_2014-10-14_HA           0.00%    passed     96.42%
+  94  cds_ALH36051_A/Oregon/06/2015_2015-03-04_HA                    0.00%    passed     86.62%
+  95  cds_APB91093_A/West_Virginia/04/2015_2015-01-26_HA             0.00%    passed     89.74%
+  96  cds_AOT89663_A/Wisconsin/72/2016_2016-07-04_HA                 0.00%    passed     56.58%
+  97  cds_APC59094_A/Hawaii/73/2016_2016-09-16_HA                    0.00%    passed     82.19%
+****  TOTAL                                                          0.00%  1 sequences failed composition chi2 test (p-value<5%; df=60)
+Checking for duplicate sequences: done in 0.000241041 secs using 99.57% CPU
+Creating fast initial parsimony tree by random order stepwise addition...
+0.013 seconds, parsimony score: 26740 (based on 564 sites)
+
+NOTE: 28 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -150673.127
+2. Current log-likelihood: -148257.767
+3. Current log-likelihood: -148246.820
+Optimal log-likelihood: -148246.815
+Nonsynonymous/synonymous ratio (omega): 1.466
+Transition/transversion ratio (kappa): 1.000
+Parameters optimization took 3 rounds (3.799 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 5.45841 secs using 99.55% CPU
+Computing ML distances took 5.458731 sec (of wall-clock time) 5.433995 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000252962 secs using 99.62% CPU
+Constructing RapidNJ tree: done in 0.000473022 secs using 301.5% CPU
+Computing RapidNJ tree took 0.000814 sec (of wall-clock time) 0.001765 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -149526.279
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.255 second
+Computing log-likelihood of 98 initial trees ... 27.176 seconds
+Current best score: -148026.463
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -147727.595
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -147723.247
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -147721.680
+Iteration 10 / LogL: -147725.571 / Time: 0h:1m:20s
+Iteration 20 / LogL: -147732.044 / Time: 0h:2m:1s
+Finish initializing candidate tree set (8)
+Current best tree score: -147721.680 / CPU time: 110.370
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -147723.724 / Time: 0h:2m:51s (0h:7m:42s left)
+Iteration 40 / LogL: -147721.797 / Time: 0h:3m:39s (0h:6m:22s left)
+Iteration 50 / LogL: -147723.331 / Time: 0h:4m:26s (0h:5m:15s left)
+Iteration 60 / LogL: -147724.376 / Time: 0h:5m:14s (0h:4m:16s left)
+Iteration 70 / LogL: -147726.111 / Time: 0h:6m:3s (0h:3m:20s left)
+Iteration 80 / LogL: -147726.492 / Time: 0h:6m:48s (0h:2m:24s left)
+Iteration 90 / LogL: -147725.501 / Time: 0h:7m:34s (0h:1m:31s left)
+Iteration 100 / LogL: -147728.012 / Time: 0h:8m:23s (0h:0m:40s left)
+TREE SEARCH COMPLETED AFTER 109 ITERATIONS / Time: 0h:9m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -147721.680
+Optimal log-likelihood: -147721.680
+Nonsynonymous/synonymous ratio (omega): 1.469
+Transition/transversion ratio (kappa): 1.000
+Parameters optimization took 1 rounds (1.178 sec)
+BEST SCORE FOUND : -147721.680
+Total tree length: 87.381
+
+Total number of iterations: 109
+CPU time used for tree search: 534.192 sec (0h:8m:54s)
+Wall-clock time used for tree search: 536.879 sec (0h:8m:56s)
+Total CPU time used: 546.749 sec (0h:9m:6s)
+Total wall-clock time used: 549.315 sec (0h:9m:9s)
+
+Analysis results written to: 
+  IQ-TREE report:                /home/yutianc/sim_proj/sim_seqs/sim.fasta.iqtree
+  Maximum-likelihood tree:       /home/yutianc/sim_proj/sim_seqs/sim.fasta.treefile
+  Likelihood distances:          /home/yutianc/sim_proj/sim_seqs/sim.fasta.mldist
+  Screen log file:               /home/yutianc/sim_proj/sim_seqs/sim.fasta.log
+
+Date and Time: Mon Aug 17 14:39:58 2026

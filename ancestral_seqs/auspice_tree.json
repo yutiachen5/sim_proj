@@ -1,0 +1,4853 @@
+{
+"meta": {
+"title": "Auspice visualization of TreeTime (v0.12.1) analysis",
+"build_url": "https://github.com/neherlab/treetime",
+"last_updated": "2026-08-14",
+"treetime_version": "0.12.1",
+"genome_annotations": {
+"nuc": {
+"start": 1,
+"end": 1698,
+"type": "source",
+"strand": "+:"
+}
+},
+"panels": [
+"tree",
+"entropy"
+],
+"colorings": [
+{
+"title": "Date",
+"type": "continuous",
+"key": "num_date"
+},
+{
+"title": "Genotype",
+"type": "categorical",
+"key": "gt"
+},
+{
+"title": "Excluded",
+"type": "categorical",
+"key": "bad_branch"
+},
+{
+"title": "Branch Support",
+"type": "continuous",
+"key": "confidence"
+}
+],
+"display_defaults": {
+"color_by": "bad_branch"
+},
+"filters": [
+"bad_branch"
+]
+},
+"tree": {
+"name": "NODE_0000000",
+"node_attrs": {
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000001",
+"node_attrs": {
+"div": 0.3201862821848943,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABO44068_A/Albany/18/1968_1968-01-01_HA",
+"node_attrs": {
+"div": 0.6611130414968353,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G35A",
+"C597T"
+]
+}
+}
+},
+{
+"name": "cds_AFG71865_A/Bilthoven/15793/1968_1968-01-01_HA",
+"node_attrs": {
+"div": 0.6611130414968353,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G482T",
+"T807A",
+"G1326A"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000002",
+"node_attrs": {
+"div": 0.5691996227675228,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A139G",
+"T1047C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000003",
+"node_attrs": {
+"div": 0.6988938674890429,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000004",
+"node_attrs": {
+"div": 0.9767952074415428,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABB96520_A/Nanjing/49/1977_1977-01-01_HA",
+"node_attrs": {
+"div": 9.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A68G",
+"T150C",
+"G354A",
+"C597T",
+"A610G",
+"A651G",
+"C984A",
+"G1015A",
+"C1027A",
+"C1039A",
+"G1080A",
+"C1167A",
+"G1323T"
+]
+}
+}
+},
+{
+"name": "NODE_0000005",
+"node_attrs": {
+"div": 1.3693913059580631,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G235A",
+"A289G"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABN51132_A/Albany/3/1969_1969-01-01_HA",
+"node_attrs": {
+"div": 1.6611130414968351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C865T"
+]
+}
+}
+},
+{
+"name": "cds_ABO52324_A/Albany/2/1970_1970-01-01_HA",
+"node_attrs": {
+"div": 2.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C75T",
+"G139A",
+"C183T",
+"T252C",
+"T285C",
+"G762A",
+"G993A",
+"C1047A",
+"T1059C",
+"A1248T"
+]
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000006",
+"node_attrs": {
+"div": 0.959709752806719,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABB80034_A/Hong_Kong/3/1969_1969-01-01_HA",
+"node_attrs": {
+"div": 1.6611130414968351,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C41T",
+"A232C",
+"C366A",
+"C597T",
+"C660T",
+"A681G",
+"C865A",
+"G924A",
+"G1404A",
+"A1482T"
+]
+}
+}
+},
+{
+"name": "NODE_0000007",
+"node_attrs": {
+"div": 2.2377467949512586,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G40A",
+"C77A",
+"G180A",
+"G524A",
+"G702A",
+"G924A",
+"G937A",
+"G990A",
+"G1198A",
+"C1308A",
+"C1362T",
+"G1386A",
+"G1404A",
+"C1543A"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABB80023_A/Hong_Kong/50/1972_1972-01-01_HA",
+"node_attrs": {
+"div": 4.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G35A",
+"A40G",
+"G139A",
+"T149C",
+"A180G",
+"A234G",
+"T259C",
+"G354A",
+"G375A",
+"G434A",
+"G479A",
+"A524G",
+"C525A",
+"A610G",
+"G626A",
+"G640A",
+"C921T",
+"A937G",
+"G969A",
+"A982G",
+"A990G",
+"G993A",
+"G1005A",
+"T1059C",
+"C1128A",
+"C1170T",
+"C1215T",
+"G1323A",
+"C1335T",
+"T1353C",
+"G1551A",
+"G1572A"
+]
+}
+}
+},
+{
+"name": "cds_ABB82227_A/Hong_Kong/46/1971_1971-01-01_HA",
+"node_attrs": {
+"div": 3.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A78G",
+"T149C",
+"A234G",
+"T383C",
+"A528C",
+"A610G",
+"G777T",
+"T1032C",
+"A1140G",
+"C1339A"
+]
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000008",
+"node_attrs": {
+"div": 2.7142800147823487,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C41T",
+"C72A",
+"G139A",
+"A174G",
+"T281G",
+"T282C",
+"T636A",
+"C705T",
+"G762A",
+"G772A",
+"G778A",
+"C804T",
+"A872G",
+"C936T",
+"A957G",
+"T1189C",
+"C1194T",
+"C1362T",
+"A1484G",
+"T1575A",
+"G1670A"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABP49184_A/Memphis/3/1971_1971-01-01_HA",
+"node_attrs": {
+"div": 3.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000009",
+"node_attrs": {
+"div": 4.295896660683818,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C9T",
+"C55T",
+"A72C",
+"C183T",
+"C413A",
+"G417A",
+"T420C",
+"G479A",
+"A511T",
+"C512A",
+"A610G",
+"G630A",
+"A636T",
+"G668A",
+"A778G",
+"T873C",
+"T879C",
+"T936C",
+"C963T",
+"T1347C",
+"G1386A",
+"A1428G",
+"C1473T"
+]
+}
+},
+"children": [
+{
+"name": "cds_AAZ43383_A/Memphis/102/1972_1972-01-01_HA",
+"node_attrs": {
+"div": 4.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C400T",
+"C543T",
+"A768G"
+]
+}
+}
+},
+{
+"name": "NODE_0000010",
+"node_attrs": {
+"div": 4.6706320602070495,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T663C",
+"C1039A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000011",
+"node_attrs": {
+"div": 4.902788868198728,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABD60790_A/Hong_Kong/33/1973_1973-01-01_HA",
+"node_attrs": {
+"div": 5.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C256T",
+"T372C",
+"A519G",
+"G778A",
+"G1198A"
+]
+}
+}
+},
+{
+"name": "cds_AFG99006_A/Bilthoven/628/1976_1976-01-01_HA",
+"node_attrs": {
+"div": 8.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G61A",
+"C114T",
+"G171A",
+"T225C",
+"A234G",
+"T283C",
+"A393T",
+"C483A",
+"G524A",
+"G537A",
+"A618C",
+"C666A",
+"A685G",
+"T703C",
+"G778T",
+"A1134G",
+"G1185A",
+"A1242G",
+"A1463G",
+"G1668A"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000012",
+"node_attrs": {
+"div": 5.232329223461564,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G195T",
+"G235A",
+"G626A",
+"T819C",
+"C987T"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABE12532_A/Port_Chalmers/1/1973_1973-01-01_HA",
+"node_attrs": {
+"div": 5.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A258G",
+"A526G",
+"C666A",
+"G1668A"
+]
+}
+}
+},
+{
+"name": "NODE_0000013",
+"node_attrs": {
+"div": 5.884708760763127,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T55C",
+"A120G",
+"A138G",
+"C296A",
+"C425A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000014",
+"node_attrs": {
+"div": 6.015558988553034,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABB04294_A/Hong_Kong/14/1974_1974-01-01_HA",
+"node_attrs": {
+"div": 6.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A63G",
+"G1005A",
+"C1284T"
+]
+}
+}
+},
+{
+"name": "cds_AFG98918_A/Bilthoven/5931/1974_1974-01-01_HA",
+"node_attrs": {
+"div": 6.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C309T",
+"C336T",
+"T480C",
+"C483A",
+"T903C",
+"G1507A"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000015",
+"node_attrs": {
+"div": 6.45854345117993,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.998
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C43T",
+"G47C",
+"C613A",
+"G650A",
+"A697G",
+"T881G"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000016",
+"node_attrs": {
+"div": 6.990778384568694,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T539A",
+"T549C",
+"T569C",
+"T882C"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABB04928_A/Hong_Kong/43/1975_1975-01-01_HA",
+"node_attrs": {
+"div": 7.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C431T",
+"C475A",
+"A625G",
+"C627T",
+"A1029G",
+"G1323A"
+]
+}
+}
+},
+{
+"name": "NODE_0000017",
+"node_attrs": {
+"div": 7.164126963068101,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABQ01366_A/Albany/1/1976_1976-01-01_HA",
+"node_attrs": {
+"div": 8.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G171A",
+"A205G",
+"A458G",
+"G482A",
+"C553A",
+"T594C",
+"A625G",
+"A736G",
+"G795A",
+"G1416A",
+"C1653A"
+]
+}
+}
+},
+{
+"name": "cds_CAA24270_A/Victoria/3/1975_1975-01-01_HA",
+"node_attrs": {
+"div": 7.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C282A",
+"A458G",
+"G471A",
+"G540A",
+"T1122C",
+"G1500T",
+"G1668A"
+]
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000018",
+"node_attrs": {
+"div": 8.803495385368736,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T38A",
+"G52A",
+"G105A",
+"G192A",
+"A197G",
+"A205G",
+"A209G",
+"A231G",
+"T233A",
+"C309T",
+"T399C",
+"A457T",
+"G482A",
+"G484A",
+"T489C",
+"G521A",
+"A579G",
+"G591A",
+"A650G",
+"A733G",
+"T759A",
+"G778T",
+"G828A",
+"T867C",
+"G1209A",
+"G1500A",
+"A1566G",
+"G1668A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000019",
+"node_attrs": {
+"div": 9.225944620829162,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABC46554_A/Memphis/19/1978_1978-01-01_HA",
+"node_attrs": {
+"div": 10.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G231A",
+"A445G",
+"A591G",
+"G733A",
+"G855A",
+"A1200G",
+"G1212A",
+"G1413A",
+"T1443C",
+"A1524G"
+]
+}
+}
+},
+{
+"name": "cds_AFG99105_A/Texas/1/1977_1977-01-01_HA",
+"node_attrs": {
+"div": 9.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T43C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000020",
+"node_attrs": {
+"div": 9.714427561522522,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A38T",
+"A60C",
+"G264A",
+"A514G",
+"C527A",
+"A591G",
+"C663T",
+"G733A",
+"C741T",
+"C867T",
+"A1087G"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABO33069_A/Albany/14/1978_1978-01-01_HA",
+"node_attrs": {
+"div": 10.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G231A",
+"G450A",
+"G671A",
+"A681G",
+"G957A",
+"G1285A",
+"C1339T",
+"G1375A",
+"A1668G"
+]
+}
+}
+},
+{
+"name": "NODE_0000021",
+"node_attrs": {
+"div": 11.019719465490882,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T99C",
+"T216C",
+"G435A",
+"A446G",
+"C475T",
+"C504T",
+"A563G",
+"A638G",
+"G697A",
+"C1167A",
+"T1320C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000022",
+"node_attrs": {
+"div": 11.382821892991275,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000023",
+"node_attrs": {
+"div": 11.53684985637753,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C483A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFH00714_A/Bangkok/1/1979_1979-01-01_HA",
+"node_attrs": {
+"div": 11.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A733G"
+]
+}
+}
+},
+{
+"name": "cds_AFM68976_A/Bangkok/1/1979_1979-01-01_HA",
+"node_attrs": {
+"div": 11.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A685G"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000024",
+"node_attrs": {
+"div": 11.699270761637012,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AFG72029_A/Rotterdam/577/1980_1980-01-01_HA",
+"node_attrs": {
+"div": 12.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C47G",
+"G382A",
+"A681G",
+"T684C",
+"C811A"
+]
+}
+}
+},
+{
+"name": "NODE_0000025",
+"node_attrs": {
+"div": 12.839694282558307,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A247G",
+"G418A",
+"T732C",
+"T741C",
+"C936T"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFG99127_A/Lyon/2380/1981_1981-01-01_HA",
+"node_attrs": {
+"div": 13.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T31C",
+"G261A",
+"T306C",
+"T549C",
+"G702A"
+]
+}
+}
+},
+{
+"name": "NODE_0000026",
+"node_attrs": {
+"div": 13.011184453014353,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AFG72040_A/Bilthoven/4791/1981_1981-01-01_HA",
+"node_attrs": {
+"div": 13.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A219G",
+"G471A",
+"A1140C",
+"G1291A",
+"T1443C"
+]
+}
+}
+},
+{
+"name": "cds_AFG99171_A/Oslo/13676/1983_1983-01-01_HA",
+"node_attrs": {
+"div": 15.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G21A",
+"A78G",
+"T410C",
+"G674A",
+"A685G",
+"T778C",
+"T792C",
+"C833A",
+"T972C",
+"C984T",
+"A1115G",
+"G1413A",
+"T1623C"
+]
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000027",
+"node_attrs": {
+"div": 11.27431258914124,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABB53751_A/Nanjing/13/1980_1980-01-01_HA",
+"node_attrs": {
+"div": 12.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T32C",
+"C99T",
+"T144C",
+"C217A",
+"T504C",
+"G514A",
+"A733G",
+"A850T",
+"C966A",
+"G990A",
+"C1092T",
+"T1095C",
+"G1260A"
+]
+}
+}
+},
+{
+"name": "NODE_0000028",
+"node_attrs": {
+"div": 13.993261169840773,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C99T",
+"T285C",
+"G390A",
+"T504C",
+"T567A",
+"C577T",
+"A685G",
+"T789C",
+"A791C",
+"A968G",
+"C1284T",
+"G1374A",
+"G1406A",
+"G1596A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AIU46023_A/Netherlands/233/1982_1982-01-01_HA",
+"node_attrs": {
+"div": 14.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G40A",
+"T1503A",
+"A1596G"
+]
+}
+}
+},
+{
+"name": "NODE_0000029",
+"node_attrs": {
+"div": 14.228668555951971,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ADJ41805_A/Philippines/2/1982_1982-06-01_HA",
+"node_attrs": {
+"div": 15.074811671635887,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T30G",
+"A198G",
+"G460A",
+"G478A",
+"G592A",
+"G634A",
+"G1407A"
+]
+}
+}
+},
+{
+"name": "NODE_0000030",
+"node_attrs": {
+"div": 15.329979567691781,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C54A",
+"A357G",
+"A479T",
+"C499T",
+"C504T",
+"G924A",
+"C936T",
+"T1182C",
+"G1198T",
+"T1338C"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABD61529_A/Memphis/33/1983_1983-01-01_HA",
+"node_attrs": {
+"div": 15.661113041496835,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T732C",
+"A1187G"
+]
+}
+}
+},
+{
+"name": "NODE_0000031",
+"node_attrs": {
+"div": 15.528550856724893,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABB79799_A/Hong_Kong/4/1984_1984-01-01_HA",
+"node_attrs": {
+"div": 16.661113041496833,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C91T",
+"C321T",
+"G650A",
+"G795A",
+"A900G",
+"G957A",
+"A1026G",
+"T1194C",
+"C1371T"
+]
+}
+}
+},
+{
+"name": "NODE_0000032",
+"node_attrs": {
+"div": 15.612804706815696,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AHZ13523_A/Caen/1/1984_1984-01-01_HA",
+"node_attrs": {
+"div": 16.661113041496833,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T414C",
+"G514A",
+"C884A",
+"T1305C",
+"G1323T",
+"C1335T",
+"A1377G",
+"C1387T",
+"G1507A"
+]
+}
+}
+},
+{
+"name": "NODE_0000033",
+"node_attrs": {
+"div": 16.474521590500167,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G231A",
+"T536C",
+"T741C",
+"A780G",
+"G993A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000034",
+"node_attrs": {
+"div": 17.046048519725865,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T99C",
+"G978A",
+"G1485A",
+"A1536G"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABC84531_A/Memphis/5/1985_1985-01-01_HA",
+"node_attrs": {
+"div": 17.661113041496836,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A566G",
+"T643G",
+"G1626A"
+]
+}
+}
+},
+{
+"name": "cds_AFG99204_A/Netherlands/333/1985_1985-02-01_HA",
+"node_attrs": {
+"div": 17.74604454834939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T41G",
+"A231G",
+"G510A",
+"G514A",
+"G795A",
+"G852A",
+"C1650T"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000035",
+"node_attrs": {
+"div": 17.380265463177405,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G419A",
+"A523T",
+"G524A",
+"T729C"
+]
+}
+},
+"children": [
+{
+"name": "cds_AAZ43370_A/Memphis/66/1986_1986-01-01_HA",
+"node_attrs": {
+"div": 18.661113041496836,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G310A",
+"A419G",
+"C483A",
+"T577C",
+"C612A",
+"G1185A"
+]
+}
+}
+},
+{
+"name": "NODE_0000036",
+"node_attrs": {
+"div": 17.618117180339873,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AFG99237_A/Colorado/2/1986_1986-01-01_HA",
+"node_attrs": {
+"div": 18.661113041496836,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A51G",
+"T57G",
+"G180A",
+"A196C",
+"G473A",
+"C573A",
+"A717G",
+"G720A",
+"C822T",
+"T867C",
+"A977G",
+"T987C"
+]
+}
+}
+},
+{
+"name": "NODE_0000037",
+"node_attrs": {
+"div": 18.78144264249833,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.999
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T329A",
+"T511C",
+"A614G",
+"T792C",
+"A1452G",
+"T1476C",
+"T1548C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000038",
+"node_attrs": {
+"div": 19.02859052304304,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AFG72085_A/Sichuan/2/1987_1987-01-01_HA",
+"node_attrs": {
+"div": 19.661113041496836,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C431T",
+"A458G",
+"T523C",
+"C525A",
+"C791T"
+]
+}
+}
+},
+{
+"name": "NODE_0000039",
+"node_attrs": {
+"div": 19.178915413641565,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABB96509_A/Memphis/13/1988_1988-01-01_HA",
+"node_attrs": {
+"div": 20.661113041496836,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C483A",
+"T882C",
+"G1428A",
+"A1530G",
+"C1594T"
+]
+}
+}
+},
+{
+"name": "cds_AFM72120_A/Shanghai/11/1987_1987-01-01_HA",
+"node_attrs": {
+"div": 19.661113041496836,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C135A",
+"G605T",
+"C704T",
+"C833A"
+]
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000040",
+"node_attrs": {
+"div": 20.218247065135984,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G147A",
+"G292A",
+"A295G",
+"A439G",
+"C492T",
+"G514A",
+"G669A",
+"C831A",
+"T867C",
+"A944G",
+"G969A",
+"A1053C",
+"G1452A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFG99270_A/England/427/1988_1988-01-01_HA",
+"node_attrs": {
+"div": 20.661113041496836,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A735G",
+"G978A",
+"A1116T"
+]
+}
+}
+},
+{
+"name": "NODE_0000041",
+"node_attrs": {
+"div": 20.60766791915869,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G777T"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000042",
+"node_attrs": {
+"div": 21.128894423443505,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C285T",
+"A514G",
+"T663A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFG72140_A/Singapore/53/1989_1989-01-01_HA",
+"node_attrs": {
+"div": 21.66111304149683,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C644T",
+"G919A",
+"G1323A"
+]
+}
+}
+},
+{
+"name": "cds_AFG99369_A/Singapore/34/1989_1989-01-01_HA",
+"node_attrs": {
+"div": 21.66111304149683,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G120A",
+"A430G",
+"T1613C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000043",
+"node_attrs": {
+"div": 21.54891582743379,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.998
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C33A",
+"A626G",
+"G678A",
+"C927T",
+"C1335T",
+"C1587T"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000044",
+"node_attrs": {
+"div": 22.408497506009393,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.999
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G310A",
+"G452A",
+"C483A",
+"A514G",
+"T705C",
+"A846G",
+"T912C"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFG99479_A/Victoria/2/1990_1990-01-01_HA",
+"node_attrs": {
+"div": 22.66111304149683,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000045",
+"node_attrs": {
+"div": 22.68687974035605,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000046",
+"node_attrs": {
+"div": 24.004033514207553,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C204T",
+"C237T",
+"A310G",
+"A522T",
+"T663C",
+"A687G",
+"A759G",
+"G855A",
+"T936C"
+]
+}
+},
+"children": [
+{
+"name": "cds_ADT79087_A/Netherlands/823/1992_1992-01-01_HA",
+"node_attrs": {
+"div": 24.661113041496833,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T410C",
+"T1503C"
+]
+}
+}
+},
+{
+"name": "cds_AFG72162_A/Stockholm/20/1991_1991-12-17_HA",
+"node_attrs": {
+"div": 24.620017151089428,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T31C",
+"G197A",
+"T508C",
+"G634A",
+"A717G",
+"G1485A"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000047",
+"node_attrs": {
+"div": 23.707868328099213,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.999
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A96G",
+"G120T",
+"A310G",
+"G357A",
+"G563A",
+"G634A",
+"C1053T"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFG99888_A/Paris/467/1991_1991-12-01_HA",
+"node_attrs": {
+"div": 24.57618153465166,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T165C",
+"G881A",
+"C1275A",
+"C1320T",
+"G1507A",
+"T1639C"
+]
+}
+}
+},
+{
+"name": "NODE_0000048",
+"node_attrs": {
+"div": 24.698184573857286,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.998
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T225C",
+"C336T",
+"A453C",
+"A576G",
+"C798T",
+"G1125A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFH00054_A/Victoria/68/1992_1992-07-17_HA",
+"node_attrs": {
+"div": 25.202096648046812,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G446A",
+"T561C",
+"A831G",
+"G1551T"
+]
+}
+}
+},
+{
+"name": "cds_AFH00252_A/Paris/287/1993_1993-01-01_HA",
+"node_attrs": {
+"div": 25.661113041496833,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G281A",
+"G603A",
+"T810A",
+"C829A",
+"C1554A"
+]
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000049",
+"node_attrs": {
+"div": 22.20374668125778,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C48T",
+"C222T",
+"A231G",
+"A232G",
+"A618C",
+"T725A",
+"C833A",
+"G1239A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFG99457_A/Shanghai/24/1990_1990-01-01_HA",
+"node_attrs": {
+"div": 22.66111304149683,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000050",
+"node_attrs": {
+"div": 25.02998205626855,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C45T",
+"T99C",
+"T222C",
+"G231A",
+"G232A",
+"A445G",
+"G446A",
+"G451A",
+"G452A",
+"C483A",
+"C518T",
+"A615T",
+"G671A",
+"A725T",
+"C792A",
+"C798T",
+"C875A",
+"A960C",
+"T963C",
+"G1365A",
+"A1397G"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000051",
+"node_attrs": {
+"div": 25.323319137264424,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AIU46027_A/Wellington/1/1994_1994-01-01_HA",
+"node_attrs": {
+"div": 26.661113041496833,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T45C",
+"G402A",
+"C438G",
+"A483C",
+"A671G",
+"T689C",
+"A768G",
+"G944A",
+"A977G",
+"C1203T"
+]
+}
+}
+},
+{
+"name": "NODE_0000052",
+"node_attrs": {
+"div": 26.821614434450662,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T45C",
+"G182A",
+"T187C",
+"A234G",
+"T410C",
+"T414C",
+"G418A",
+"A483C",
+"T636C",
+"G650A",
+"A671G",
+"A694G",
+"C704A",
+"C711A",
+"A1116G",
+"A1140T",
+"A1201G",
+"C1320T",
+"C1338T",
+"G1389A",
+"C1446T",
+"G1644T"
+]
+}
+},
+"children": [
+{
+"name": "cds_AFH00461_A/Hong_Kong/42/1996_1996-03-04_HA",
+"node_attrs": {
+"div": 28.833244189028125,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A182G",
+"A219G",
+"C410T",
+"A522C",
+"T531C",
+"G609T",
+"C623T",
+"G640T",
+"A650G",
+"A826C",
+"A887G",
+"A951T",
+"G1116A",
+"A1389G",
+"A1464G",
+"A1536G"
+]
+}
+}
+},
+{
+"name": "NODE_0000053",
+"node_attrs": {
+"div": 27.381396912112912,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABG26901_A/New_York/702/1995_1995-01-09_HA",
+"node_attrs": {
+"div": 27.6830308497157,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G460T",
+"T518C",
+"G1416A"
+]
+}
+}
+},
+{
+"name": "cds_ABG67201_A/New_York/682/1995_1995-03-01_HA",
+"node_attrs": {
+"div": 27.82275687710973,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A28T",
+"A1143G"
+]
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000054",
+"node_attrs": {
+"div": 25.349381779293534,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AFH00175_A/Madrid/G252/1993_1993-01-01_HA",
+"node_attrs": {
+"div": 25.661113041496833,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T725A"
+]
+}
+}
+},
+{
+"name": "NODE_0000055",
+"node_attrs": {
+"div": 25.64494982280869,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AFG72504_A/England/7/1994_1994-01-01_HA",
+"node_attrs": {
+"div": 26.661113041496833,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T45C",
+"A671G",
+"C704T",
+"G852T",
+"A993G",
+"A1325G"
+]
+}
+}
+},
+{
+"name": "NODE_0000056",
+"node_attrs": {
+"div": 28.187634021474693,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T45C",
+"A78G",
+"T144C",
+"A393C",
+"T410C",
+"G418A",
+"A419G",
+"G445A",
+"G450A",
+"A452C",
+"G472A",
+"G537A",
+"G563A",
+"C606T",
+"G638A",
+"A671G",
+"G702A",
+"C724A",
+"G726C",
+"T732C",
+"T786C",
+"A833G",
+"G872A",
+"G881A",
+"C963T",
+"G1171A",
+"G1404A",
+"C1620T"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000057",
+"node_attrs": {
+"div": 28.829359045499864,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ACF36379_A/Hong_Kong/CUHK4529/1997_1997-04-02_HA",
+"node_attrs": {
+"div": 29.91042810998681,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G209A",
+"A323C",
+"A418G",
+"A445G",
+"A576G",
+"A639T",
+"A724G",
+"A906G",
+"T936C",
+"T1032C",
+"C1215T",
+"T1620C"
+]
+}
+}
+},
+{
+"name": "cds_ACT21466_A/New_York/537/1998_1998-02-05_HA",
+"node_attrs": {
+"div": 30.757003452455194,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T86C",
+"G197A",
+"T279C",
+"C286A",
+"A323C",
+"A418G",
+"A445G",
+"A472G",
+"A702G",
+"G990A",
+"G1397A",
+"C1458T",
+"C1479T",
+"T1620C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000058",
+"node_attrs": {
+"div": 28.923903601940125,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C410A",
+"T927A",
+"T1314G",
+"A1404G"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABD77895_A/New_York/589/1996_1996-12-18_HA",
+"node_attrs": {
+"div": 29.6228616753789,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C12T",
+"T441C",
+"C744A",
+"A1181G"
+]
+}
+}
+},
+{
+"name": "NODE_0000059",
+"node_attrs": {
+"div": 30.06872255694272,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A232G",
+"T327C",
+"G478A",
+"A514C",
+"G520A",
+"T635C",
+"A724G",
+"A872G",
+"C876A",
+"C1233T",
+"A1290G",
+"C1431T",
+"C1446T"
+]
+}
+},
+"children": [
+{
+"name": "cds_ABB80148_A/New_York/501/1997_1997-11-26_HA",
+"node_attrs": {
+"div": 30.56248290451174,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G21A",
+"C55A",
+"G1413A"
+]
+}
+}
+},
+{
+"name": "NODE_0000060",
+"node_attrs": {
+"div": 30.253695099571896,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000061",
+"node_attrs": {
+"div": 30.604715008003552,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A458T"
+]
+}
+},
+"children": [
+{
+"name": "cds_AAZ74397_A/New_York/316/1999_1999-01-26_HA",
+"node_attrs": {
+"div": 31.72960619218993,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G6T",
+"C45T",
+"A140G",
+"A272T",
+"A604G",
+"C726T",
+"A759G",
+"T778C",
+"A920G",
+"C1047T",
+"T1246A",
+"T1613C"
+]
+}
+}
+},
+{
+"name": "cds_ACF36251_A/Hong_Kong/CUHK18886/1998_1998-10-03_HA",
+"node_attrs": {
+"div": 31.41453769902581,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A140G",
+"G280A",
+"G652A",
+"C711T",
+"T778C",
+"T987C",
+"G1110A",
+"A1395C",
+"G1682A"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000062",
+"node_attrs": {
+"div": 31.078971918041358,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A96G",
+"G218A",
+"G246A",
+"C399A",
+"A458C",
+"T479A",
+"C564A",
+"C623T",
+"A1056G",
+"A1089G",
+"G1403A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AEG64889_A/Missouri/NHRC0001/2000_2000-02-07_HA",
+"node_attrs": {
+"div": 32.7622059376707,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G62T",
+"G96A",
+"A147C",
+"A323C",
+"G382T",
+"A479T",
+"C822T",
+"G859A",
+"G1212A",
+"G1290A",
+"G1397A",
+"A1403G",
+"C1437T"
+]
+}
+}
+},
+{
+"name": "NODE_0000063",
+"node_attrs": {
+"div": 31.441142020325326,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AAZ83266_A/New_York/252/1999_1999-01-12_HA",
+"node_attrs": {
+"div": 31.69125002778862,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C167A",
+"A272G"
+]
+}
+}
+},
+{
+"name": "NODE_0000064",
+"node_attrs": {
+"div": 31.647855121530114,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AAX56510_A/New_York/132/2002_2002-01-27_HA",
+"node_attrs": {
+"div": 34.732345918211195,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T36C",
+"C99T",
+"G156A",
+"C365T",
+"C393A",
+"A399G",
+"A478G",
+"A604G",
+"G609A",
+"G734A",
+"A1017G",
+"C1047T",
+"T1059C",
+"G1087A",
+"A1134G",
+"C1320T",
+"A1536G",
+"G1633A"
+]
+}
+}
+},
+{
+"name": "NODE_0000065",
+"node_attrs": {
+"div": 31.834591064163053,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000066",
+"node_attrs": {
+"div": 32.07667889805086,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABG80205_A/Waikato/4/2000_2000-08-28_HA",
+"node_attrs": {
+"div": 33.31685074640906,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T159C",
+"A196G",
+"T531C",
+"A547G",
+"T643C",
+"A787T",
+"C865T",
+"T1149C",
+"A1254G",
+"G1303A",
+"A1350G",
+"G1389A",
+"A1500G",
+"T1638C"
+]
+}
+}
+},
+{
+"name": "cds_ABI92511_A/Western_Australia/13/2001_2001-07-11_HA",
+"node_attrs": {
+"div": 34.18440071272796,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G78A",
+"A81G",
+"G182A",
+"G197T",
+"G375A",
+"A478G",
+"T531C",
+"C538T",
+"A560C",
+"T615C",
+"A736G",
+"T861C",
+"C865T",
+"G886A",
+"A969G",
+"G1110A",
+"G1474A",
+"G1485A",
+"T1698C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000067",
+"node_attrs": {
+"div": 33.72313284380781,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G93T",
+"G108A",
+"A196G",
+"C216T",
+"A219G",
+"G295A",
+"G439A",
+"T531C",
+"C538T",
+"A604G",
+"G652A",
+"T712A",
+"G722A",
+"G855A",
+"C1182T",
+"A1205G",
+"G1212A",
+"A1230G",
+"G1314A",
+"C1527T",
+"T1637C"
+]
+}
+},
+"children": [
+{
+"name": "cds_ACF36383_A/Hong_Kong/CUHK50080/2001_2001-11-08_HA",
+"node_attrs": {
+"div": 34.51316783601577,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A439G",
+"G604A",
+"C726T",
+"C1047T",
+"T1547C",
+"G1683A"
+]
+}
+}
+},
+{
+"name": "NODE_0000068",
+"node_attrs": {
+"div": 33.99212498587344,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABS76426_A/Thailand/Siriraj-06/2002_2002-01-01_HA",
+"node_attrs": {
+"div": 34.66111304149682,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C114T",
+"A323C",
+"C400T",
+"A1050G",
+"T1364A"
+]
+}
+}
+},
+{
+"name": "NODE_0000069",
+"node_attrs": {
+"div": 34.919023625102554,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T31C",
+"C121A",
+"G156T",
+"T273G",
+"C511A",
+"A512C",
+"A516C",
+"G648A",
+"G1011A",
+"C1044T",
+"T1149C",
+"C1642T"
+]
+}
+},
+"children": [
+{
+"name": "cds_AAZ32950_A/Moscow/328/2003_2003-01-01_HA",
+"node_attrs": {
+"div": 35.66111304149682,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A322G",
+"G382A",
+"A410C",
+"C516T",
+"C711A",
+"G937A",
+"A1405G",
+"C1411T",
+"C1637T"
+]
+}
+}
+},
+{
+"name": "NODE_0000070",
+"node_attrs": {
+"div": 35.10305317033028,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ACF36391_A/Hong_Kong/CUHK50895/2003_2003-07-06_HA",
+"node_attrs": {
+"div": 36.17070208258731,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A7G",
+"G626A",
+"C660T",
+"T727C",
+"T987C",
+"C1215T",
+"G1218A",
+"C1593T"
+]
+}
+}
+},
+{
+"name": "NODE_0000071",
+"node_attrs": {
+"div": 35.689971783933366,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A483C",
+"A524T",
+"G614A",
+"G724A"
+]
+}
+},
+"children": [
+{
+"name": "cds_ACO36496_A/Hong_Kong/HKU19/2004_2004-06-01_HA",
+"node_attrs": {
+"div": 37.076413587943684,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G138A",
+"T225C",
+"A484G",
+"T636C",
+"A1025C",
+"G1056A",
+"C1149T"
+]
+}
+}
+},
+{
+"name": "NODE_0000072",
+"node_attrs": {
+"div": 36.51882458914649,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G444A",
+"T727C",
+"C1092T",
+"C1128A",
+"C1130T",
+"A1188G",
+"A1200G",
+"A1212C"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000073",
+"node_attrs": {
+"div": 36.66830441737073,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AAZ79985_A/New_York/385/2004_2004-12-28_HA",
+"node_attrs": {
+"div": 37.65018407975087,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A52G",
+"T623C",
+"A702G",
+"G1206A",
+"T1392C"
+]
+}
+}
+},
+{
+"name": "NODE_0000074",
+"node_attrs": {
+"div": 37.05031838826642,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABU92679_A/Denmark/64/2006_2006-01-01_HA",
+"node_attrs": {
+"div": 38.661113041496804,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G171A",
+"G180A",
+"G382A",
+"A565G",
+"T594C",
+"T643C",
+"A712C",
+"G714A",
+"C726T",
+"A846G",
+"T882A",
+"A1033C",
+"T1059G",
+"A1171G",
+"G1323A",
+"A1550G",
+"G1558A",
+"C1605A"
+]
+}
+}
+},
+{
+"name": "cds_AIW60700_A/BRISBANE/3/2005_2005-01-01_HA",
+"node_attrs": {
+"div": 37.66111304149681,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C91A",
+"G382A",
+"A565G",
+"G650A",
+"A1171G",
+"T1266C",
+"A1396G",
+"G1397A"
+]
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000075",
+"node_attrs": {
+"div": 37.30934985224353,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A625T",
+"G626T",
+"A630G",
+"G714A",
+"G721A",
+"C811A",
+"C1173T",
+"G1485A",
+"T1560C"
+]
+}
+},
+"children": [
+{
+"name": "cds_ACH69569_A/Guangdong/07/2005_2005-01-01_HA",
+"node_attrs": {
+"div": 37.66111304149682,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G205A",
+"A858T",
+"A985T",
+"C1458T",
+"T1563C"
+]
+}
+}
+},
+{
+"name": "NODE_0000076",
+"node_attrs": {
+"div": 37.64546357187767,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AEG65076_A/Illinois/NHRC0001/2006_2006-02-15_HA",
+"node_attrs": {
+"div": 38.78440071273358,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A521G",
+"A697G",
+"C879T",
+"T1130C",
+"T1296C"
+]
+}
+}
+},
+{
+"name": "NODE_0000077",
+"node_attrs": {
+"div": 38.24346017080235,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ABV30261_A/Texas/UR06-0480/2007_2007-03-02_HA",
+"node_attrs": {
+"div": 39.82549660313859,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A65T",
+"A148G",
+"A430G",
+"A472G",
+"T518C",
+"A565G",
+"A969G",
+"A1131G",
+"A1171G",
+"T1227C",
+"G1397A",
+"A1398G",
+"A1526C",
+"C1548T",
+"A1557G"
+]
+}
+}
+},
+{
+"name": "NODE_0000078",
+"node_attrs": {
+"div": 39.288248282488716,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C60T",
+"G197A",
+"T447C",
+"A467T",
+"T930C",
+"T954C",
+"A1171G",
+"A1254C",
+"C1275T",
+"T1296C",
+"G1397A",
+"T1512C",
+"A1557G"
+]
+}
+},
+"children": [
+{
+"name": "cds_ANN44926_A/Kenya/01/2008_2008-01-01_HA",
+"node_attrs": {
+"div": 40.661113041496804,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T60C",
+"G182A",
+"A521G",
+"C543T",
+"A565G",
+"A831G",
+"A1017G",
+"C1322T",
+"A1325T",
+"C1330G",
+"C1347T",
+"C1548T"
+]
+}
+}
+},
+{
+"name": "NODE_0000079",
+"node_attrs": {
+"div": 39.505114005846565,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AJJ98777_A/Thailand/SS07028/2007_2007-09-26_HA",
+"node_attrs": {
+"div": 40.39535961683718,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C185T",
+"G205A",
+"G357A",
+"A565G",
+"G978A",
+"A1263G",
+"C1293T",
+"G1545A"
+]
+}
+}
+},
+{
+"name": "NODE_0000080",
+"node_attrs": {
+"div": 39.719059802224294,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_ACF10331_A/Iowa/02/2008_2008-03-23_HA",
+"node_attrs": {
+"div": 40.88515675734057,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C55T",
+"A105G",
+"A297T",
+"T518C",
+"A567T",
+"G592A",
+"C729T",
+"G837A",
+"G1056T",
+"G1344A",
+"C1371T",
+"A1455C",
+"A1518C",
+"C1549A",
+"T1632C",
+"G1633A"
+]
+}
+}
+},
+{
+"name": "NODE_0000081",
+"node_attrs": {
+"div": 40.63170599609697,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A522C",
+"A565C",
+"C729T",
+"T1130G",
+"G1197A",
+"C1296T",
+"C1560A",
+"A1578G"
+]
+}
+},
+"children": [
+{
+"name": "cds_ALM05067_A/Bhutan/FLU_BTD_SV0023_CP2/2009_2009-01-15_HA",
+"node_attrs": {
+"div": 41.699469205879836,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A521G",
+"C522A",
+"G720A",
+"A1143T",
+"G1185A",
+"G1513A",
+"G1545A"
+]
+}
+}
+},
+{
+"name": "NODE_0000082",
+"node_attrs": {
+"div": 40.946643463377924,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T615A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000083",
+"node_attrs": {
+"div": 41.325949993518364,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G232A",
+"T480A",
+"C1548T"
+]
+}
+},
+"children": [
+{
+"name": "cds_ADK22399_A/Acre/26954/2010_2010-04-04_HA",
+"node_attrs": {
+"div": 42.91590756204195,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A117G",
+"G120A",
+"T213C",
+"G402T",
+"T437C",
+"T882C",
+"G957A",
+"G1023A",
+"T1032C",
+"C1387T",
+"A1403G",
+"G1474A"
+]
+}
+}
+},
+{
+"name": "cds_AFM71754_A/Wisconsin/15/2009_2009-01-01_HA",
+"node_attrs": {
+"div": 41.6611130414968,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T629C",
+"T686C",
+"A1508C"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000084",
+"node_attrs": {
+"div": 42.061789507210136,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C318A",
+"C483T",
+"A615G",
+"C660A",
+"A682G",
+"A983G",
+"G1005A",
+"C1053A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AGK74708_A/Michigan/01/2011_2011-01-04_HA",
+"node_attrs": {
+"div": 43.669332219578884,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T44C",
+"C45T",
+"A108G",
+"G205A",
+"T291C",
+"T328C",
+"A621G",
+"C690T",
+"A721G",
+"A736G",
+"A887C",
+"G983A",
+"C1009A",
+"A1131G",
+"A1137G",
+"T1353C",
+"A1518G",
+"G1545A",
+"T1595A"
+]
+}
+}
+},
+{
+"name": "NODE_0000085",
+"node_attrs": {
+"div": 42.414429979432256,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AGK74652_A/Texas/06/2010_2010-08-13_HA",
+"node_attrs": {
+"div": 43.27481167163565,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A10G",
+"C710T",
+"G837A",
+"T1119C",
+"A1451C",
+"G1513A"
+]
+}
+}
+},
+{
+"name": "NODE_0000086",
+"node_attrs": {
+"div": 43.32434637521906,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G182A",
+"C191T",
+"C456T",
+"A482G",
+"G640T",
+"G715A",
+"A1195C",
+"A1671G"
+]
+}
+},
+"children": [
+{
+"name": "cds_AGK63003_A/Hormozgan/807/2012_2012-01-04_HA",
+"node_attrs": {
+"div": 44.66930976280623,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T107G",
+"A182G",
+"T191C",
+"G310A",
+"A318C",
+"T456C",
+"A887C",
+"G1507A"
+]
+}
+}
+},
+{
+"name": "NODE_0000087",
+"node_attrs": {
+"div": 43.72698452192601,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AFN19527_A/Singapore/KK316/2011_2011-08-08_HA",
+"node_attrs": {
+"div": 44.261113041498064,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T29C",
+"G720A",
+"C1605A"
+]
+}
+}
+},
+{
+"name": "NODE_0000088",
+"node_attrs": {
+"div": 44.21705944743512,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C72T",
+"A146G",
+"G501A",
+"T882G",
+"C1254A"
+]
+}
+},
+"children": [
+{
+"name": "cds_BAT21792_A/Ishikawa/45-389v/2012_2012-01-26_HA",
+"node_attrs": {
+"div": 44.72941905242611,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G120A",
+"A234C",
+"G482A",
+"G1171A",
+"C1195A",
+"C1593T"
+]
+}
+}
+},
+{
+"name": "NODE_0000089",
+"node_attrs": {
+"div": 44.6112995063675,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C285T",
+"A1518G",
+"A1524G"
+]
+}
+},
+"children": [
+{
+"name": "cds_BAU36354_A/Okinawa/JP-69/2014_2014-02-10_HA",
+"node_attrs": {
+"div": 46.770702082591384,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T9C",
+"C83T",
+"G146A",
+"T372C",
+"A430G",
+"A472G",
+"T518C",
+"G603T",
+"T912C",
+"C954T",
+"G1087A",
+"T1088A",
+"A1134G",
+"T1296A",
+"C1512T",
+"G1518A"
+]
+}
+}
+},
+{
+"name": "NODE_0000090",
+"node_attrs": {
+"div": 44.82223511888376,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_AGZ61170_A/North_Carolina/02/2013_2013-01-03_HA",
+"node_attrs": {
+"div": 45.66659249355146,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T19G",
+"A206G",
+"A939C"
+]
+}
+}
+},
+{
+"name": "NODE_0000091",
+"node_attrs": {
+"div": 45.12958555526354,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C1491A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AHL97288_A/Boston/YGA_01114/2013_2013-01-01_HA",
+"node_attrs": {
+"div": 45.661113041496755,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G205A",
+"C222T",
+"G693A",
+"C726T",
+"G1056A",
+"A1083G",
+"T1158C",
+"C1400T",
+"G1407A",
+"G1513A"
+]
+}
+}
+},
+{
+"name": "NODE_0000092",
+"node_attrs": {
+"div": 46.62367230465286,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C55A",
+"G138A",
+"A479G",
+"T524A",
+"A527C",
+"G693A",
+"A721G",
+"A981T",
+"G1260A",
+"G1513A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AJE62947_A/Thailand/CU-B11065/2014_2014-10-14_HA",
+"node_attrs": {
+"div": 47.444674685331414,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G120A",
+"A138G",
+"A192G",
+"G294A",
+"A451G",
+"T640C"
+]
+}
+}
+},
+{
+"name": "NODE_0000093",
+"node_attrs": {
+"div": 47.06111621942026,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C1437A"
+]
+}
+},
+"children": [
+{
+"name": "cds_ALH36051_A/Oregon/06/2015_2015-03-04_HA",
+"node_attrs": {
+"div": 47.83097605519442,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G205A",
+"G473A",
+"A638G",
+"C704A",
+"G833A",
+"A1128G",
+"C1347T"
+]
+}
+}
+},
+{
+"name": "NODE_0000094",
+"node_attrs": {
+"div": 47.22370580683431,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "cds_APB91093_A/West_Virginia/04/2015_2015-01-26_HA",
+"node_attrs": {
+"div": 47.729606192180796,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A563G",
+"G1336T",
+"G1557A"
+]
+}
+}
+},
+{
+"name": "NODE_0000095",
+"node_attrs": {
+"div": 48.51559353692874,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C172T",
+"A234G",
+"C531T",
+"T561G",
+"A1197G",
+"A1264G",
+"G1269A",
+"G1499A",
+"G1683A"
+]
+}
+},
+"children": [
+{
+"name": "cds_AOT89663_A/Wisconsin/72/2016_2016-07-04_HA",
+"node_attrs": {
+"div": 49.1665775223703,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G46A",
+"A139G",
+"C411A",
+"C726T",
+"G1206A",
+"T1362C"
+]
+}
+}
+},
+{
+"name": "cds_APC59094_A/Hawaii/73/2016_2016-09-16_HA",
+"node_attrs": {
+"div": 49.36876331472025,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A472G",
+"G983A",
+"G1200A"
+]
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+}

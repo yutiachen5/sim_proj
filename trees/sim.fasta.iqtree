@@ -1,0 +1,265 @@
+IQ-TREE 3.1.3 built Jul 26 2026
+
+Input file name: /home/yutianc/sim_proj/sim_seqs/sim.fasta
+Type of analysis: tree reconstruction
+Random seed number: 234590
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 97 sequences with 566 codon sites
+Number of constant sites: 2 (= 0.353357% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2 (= 0.353357% of all sites)
+Number of parsimony informative sites: 548
+Number of distinct site patterns: 566
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: MG+F3X4
+
+Nonsynonymous/synonymous ratio (omega): 1.4687
+Transition/transversion ratio (kappa): 1.0000
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -147721.6798 (s.e. 3138.4483)
+Unconstrained log-likelihood (without tree): -3587.6442
+Number of free parameters (#branches + #model parameters): 201
+Akaike information criterion (AIC) score: 295845.3596
+Corrected Akaike information criterion (AICc) score: 296068.4475
+Bayesian information criterion (BIC) score: 296717.4170
+
+Total tree length (sum of branch lengths): 87.3806
+Sum of internal branch lengths: 30.4532 (34.8512% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'cds_ABO44068_A/Albany/18/1968_1968_HA' is drawn at root
+
+NOTE: Branch lengths are interpreted as number of nucleotide substitutions per codon site!
+      Rescale them by 1/3 if you want to have #nt substitutions per nt site
+
++--cds_ABO44068_A/Albany/18/1968_1968_HA
+|
++--cds_AFG71865_A/Bilthoven/15793/1968_1968_HA
+|
+|           +----cds_ABB96520_A/Nanjing/49/1977_1977_HA
+|        +--|
+|        |  |  +--cds_ABB80023_A/Hong_Kong/50/1972_1972_HA
+|        |  +--|
+|        |     +--cds_ABB82227_A/Hong_Kong/46/1971_1971_HA
+|     +--|
+|     |  +--cds_ABB80034_A/Hong_Kong/3/1969_1969_HA
+|  +--|
+|  |  |  +--cds_ABN51132_A/Albany/3/1969_1969_HA
+|  |  +--|
+|  |     +--cds_ABO52324_A/Albany/2/1970_1970_HA
++--|
+   |  +--cds_ABP49184_A/Memphis/3/1971_1971_HA
+   +--|
+      |  +--cds_AAZ43383_A/Memphis/102/1972_1972_HA
+      +--|
+         |     +--cds_ABD60790_A/Hong_Kong/33/1973_1973_HA
+         |  +--|
+         |  |  +---cds_AFG99006_A/Bilthoven/628/1976_1976_HA
+         +--|
+            |  +--cds_ABE12532_A/Port_Chalmers/1/1973_1973_HA
+            +--|
+               |     +--cds_ABB04294_A/Hong_Kong/14/1974_1974_HA
+               |  +--|
+               |  |  +--cds_AFG98918_A/Bilthoven/5931/1974_1974_HA
+               +--|
+                  |     +--cds_ABB04928_A/Hong_Kong/43/1975_1975_HA
+                  |  +--|
+                  |  |  |  +--cds_ABQ01366_A/Albany/1/1976_1976_HA
+                  |  |  +--|
+                  |  |     +--cds_CAA24270_A/Victoria/3/1975_1975_HA
+                  +--|
+                     |     +--cds_ABC46554_A/Memphis/19/1978_1978_HA
+                     |  +--|
+                     |  |  +--cds_AFG99105_A/Texas/1/1977_1977_HA
+                     +--|
+                        |  +--cds_ABO33069_A/Albany/14/1978_1978_HA
+                        +--|
+                           |        +--cds_AFH00714_A/Bangkok/1/1979_1979_HA
+                           |     +--|
+                           |     |  +--cds_AFM68976_A/Bangkok/1/1979_1979_HA
+                           |  +--|
+                           |  |  |  +--cds_AFG72029_A/Rotterdam/577/1980_1980_HA
+                           |  |  +--|
+                           |  |     |     +--cds_AFG72040_A/Bilthoven/4791/1981_1981_HA
+                           |  |     |  +--|
+                           |  |     |  |  +--cds_AFG99127_A/Lyon/2380/1981_1981_HA
+                           |  |     +--|
+                           |  |        +--cds_AFG99171_A/Oslo/13676/1983_1983_HA
+                           +--|
+                              |  +--cds_ABB53751_A/Nanjing/13/1980_1980_HA
+                              +--|
+                                 |  +--cds_AIU46023_A/Netherlands/233/1982_1982_HA
+                                 +--|
+                                    |  +--cds_ADJ41805_A/Philippines/2/1982_1982-06-01_HA
+                                    +--|
+                                       |  +--cds_ABD61529_A/Memphis/33/1983_1983_HA
+                                       +--|
+                                          |  +--cds_AHZ13523_A/Caen/1/1984_1984_HA
+                                          +--|
+                                             |  +--cds_ABB79799_A/Hong_Kong/4/1984_1984_HA
+                                             +--|
+                                                |     +--cds_ABC84531_A/Memphis/5/1985_1985_HA
+                                                |  +--|
+                                                |  |  +--cds_AFG99204_A/Netherlands/333/1985_1985-02-01_HA
+                                                +--|
+                                                   |  +--cds_AAZ43370_A/Memphis/66/1986_1986_HA
+                                                   +--|
+                                                      |  +--cds_AFG99237_A/Colorado/2/1986_1986_HA
+                                                      +--|
+                                                         |     +--cds_AFG72085_A/Sichuan/2/1987_1987_HA
+                                                         |  +--|
+                                                         |  |  |  +--cds_ABB96509_A/Memphis/13/1988_1988_HA
+                                                         |  |  +--|
+                                                         |  |     +--cds_AFM72120_A/Shanghai/11/1987_1987_HA
+                                                         +--|
+                                                            |  +--cds_AFG99270_A/England/427/1988_1988_HA
+                                                            +--|
+                                                               |     +--cds_AFG72140_A/Singapore/53/1989_1989_HA
+                                                               |  +--|
+                                                               |  |  +--cds_AFG99369_A/Singapore/34/1989_1989_HA
+                                                               +--|
+                                                                  |     +--cds_AFG99479_A/Victoria/2/1990_1990_HA
+                                                                  |  +--|
+                                                                  |  |  |     +--cds_ADT79087_A/Netherlands/823/1992_1992_HA
+                                                                  |  |  |  +--|
+                                                                  |  |  |  |  +--cds_AFG72162_A/Stockholm/20/1991_1991-12-17_HA
+                                                                  |  |  +--|
+                                                                  |  |     |  +--cds_AFG99888_A/Paris/467/1991_1991-12-01_HA
+                                                                  |  |     +--|
+                                                                  |  |        |  +--cds_AFH00054_A/Victoria/68/1992_1992-07-17_HA
+                                                                  |  |        +--|
+                                                                  |  |           +--cds_AFH00252_A/Paris/287/1993_1993_HA
+                                                                  +--|
+                                                                     |  +--cds_AFG99457_A/Shanghai/24/1990_1990_HA
+                                                                     +--|
+                                                                        |     +--cds_AIU46027_A/Wellington/1/1994_1994_HA
+                                                                        |  +--|
+                                                                        |  |  |  +--cds_AFH00175_A/Madrid/G252/1993_1993_HA
+                                                                        |  |  +--|
+                                                                        |  |     |  +--cds_AFG72504_A/England/7/1994_1994_HA
+                                                                        |  |     +--|
+                                                                        |  |        |     +--cds_ACF36379_A/Hong_Kong/CUHK4529/1997_1997-04-02_HA
+                                                                        |  |        |  +--|
+                                                                        |  |        |  |  +--cds_ACT21466_A/New_York/537/1998_1998-02-05_HA
+                                                                        |  |        +--|
+                                                                        |  |           |  +--cds_ABD77895_A/New_York/589/1996_1996-12-18_HA
+                                                                        |  |           +--|
+                                                                        |  |              |  +--cds_ABB80148_A/New_York/501/1997_1997-11-26_HA
+                                                                        |  |              +--|
+                                                                        |  |                 |     +--cds_AAZ74397_A/New_York/316/1999_1999-01-26_HA
+                                                                        |  |                 |  +--|
+                                                                        |  |                 |  |  +--cds_ACF36251_A/Hong_Kong/CUHK18886/1998_1998-10-03_HA
+                                                                        |  |                 +--|
+                                                                        |  |                    |  +--cds_AEG64889_A/Missouri/NHRC0001/2000_2000-02-07_HA
+                                                                        |  |                    +--|
+                                                                        |  |                       |  +--cds_AAZ83266_A/New_York/252/1999_1999-01-12_HA
+                                                                        |  |                       +--|
+                                                                        |  |                          |        +--cds_AAX56510_A/New_York/132/2002_2002-01-27_HA
+                                                                        |  |                          |     +--|
+                                                                        |  |                          |     |  +--cds_ABI92511_A/Western_Australia/13/2001_2001-07-11_HA
+                                                                        |  |                          |  +--|
+                                                                        |  |                          |  |  +--cds_ABG80205_A/Waikato/4/2000_2000-08-28_HA
+                                                                        |  |                          +--|
+                                                                        |  |                             |  +--cds_ACF36383_A/Hong_Kong/CUHK50080/2001_2001-11-08_HA
+                                                                        |  |                             +--|
+                                                                        |  |                                |  +--cds_ABS76426_A/Thailand/Siriraj-06/2002_2002_HA
+                                                                        |  |                                +--|
+                                                                        |  |                                   |  +--cds_AAZ32950_A/Moscow/328/2003_2003_HA
+                                                                        |  |                                   +--|
+                                                                        |  |                                      |  +--cds_ACF36391_A/Hong_Kong/CUHK50895/2003_2003-07-06_HA
+                                                                        |  |                                      +--|
+                                                                        |  |                                         |  +--cds_ACO36496_A/Hong_Kong/HKU19/2004_2004-06-01_HA
+                                                                        |  |                                         +--|
+                                                                        |  |                                            |     +--cds_AAZ79985_A/New_York/385/2004_2004-12-28_HA
+                                                                        |  |                                            |  +--|
+                                                                        |  |                                            |  |  |  +--cds_ABU92679_A/Denmark/64/2006_2006_HA
+                                                                        |  |                                            |  |  +--|
+                                                                        |  |                                            |  |     +--cds_AIW60700_A/BRISBANE/3/2005_2005_HA
+                                                                        |  |                                            +--|
+                                                                        |  |                                               |  +--cds_ACH69569_A/Guangdong/07/2005_2005_HA
+                                                                        |  |                                               +--|
+                                                                        |  |                                                  |  +--cds_AEG65076_A/Illinois/NHRC0001/2006_2006-02-15_HA
+                                                                        |  |                                                  +--|
+                                                                        |  |                                                     |  +--cds_ABV30261_A/Texas/UR06-0480/2007_2007-03-02_HA
+                                                                        |  |                                                     +--|
+                                                                        |  |                                                        |  +--cds_ANN44926_A/Kenya/01/2008_2008_HA
+                                                                        |  |                                                        +--|
+                                                                        |  |                                                           |  +--cds_AJJ98777_A/Thailand/SS07028/2007_2007-09-26_HA
+                                                                        |  |                                                           +--|
+                                                                        |  |                                                              |  +--cds_ACF10331_A/Iowa/02/2008_2008-03-23_HA
+                                                                        |  |                                                              +--|
+                                                                        |  |                                                                 |  +--cds_ALM05067_A/Bhutan/FLU_BTD_SV0023_CP2/2009_2009-01-15_HA
+                                                                        |  |                                                                 +--|
+                                                                        |  |                                                                    |     +--cds_ADK22399_A/Acre/26954/2010_2010-04-04_HA
+                                                                        |  |                                                                    |  +--|
+                                                                        |  |                                                                    |  |  +--cds_AFM71754_A/Wisconsin/15/2009_2009_HA
+                                                                        |  |                                                                    +--|
+                                                                        |  |                                                                       |  +--cds_AGK74708_A/Michigan/01/2011_2011-01-04_HA
+                                                                        |  |                                                                       +--|
+                                                                        |  |                                                                          |  +--cds_AGK74652_A/Texas/06/2010_2010-08-13_HA
+                                                                        |  |                                                                          +--|
+                                                                        |  |                                                                             |  +--cds_AGK63003_A/Hormozgan/807/2012_2012-01-04_HA
+                                                                        |  |                                                                             +--|
+                                                                        |  |                                                                                |  +--cds_AFN19527_A/Singapore/KK316/2011_2011-08-08_HA
+                                                                        |  |                                                                                +--|
+                                                                        |  |                                                                                   |  +--cds_BAT21792_A/Ishikawa/45-389v/2012_2012-01-26_HA
+                                                                        |  |                                                                                   +--|
+                                                                        |  |                                                                                      |  +--cds_BAU36354_A/Okinawa/JP-69/2014_2014-02-10_HA
+                                                                        |  |                                                                                      +--|
+                                                                        |  |                                                                                         |  +--cds_AGZ61170_A/North_Carolina/02/2013_2013-01-03_HA
+                                                                        |  |                                                                                         +--|
+                                                                        |  |                                                                                            |  +--cds_AHL97288_A/Boston/YGA_01114/2013_2013-01-01_HA
+                                                                        |  |                                                                                            +--|
+                                                                        |  |                                                                                               |  +--cds_AJE62947_A/Thailand/CU-B11065/2014_2014-10-14_HA
+                                                                        |  |                                                                                               +--|
+                                                                        |  |                                                                                                  |  +--cds_ALH36051_A/Oregon/06/2015_2015-03-04_HA
+                                                                        |  |                                                                                                  +--|
+                                                                        |  |                                                                                                     |  +--cds_APB91093_A/West_Virginia/04/2015_2015-01-26_HA
+                                                                        |  |                                                                                                     +--|
+                                                                        |  |                                                                                                        |  +--cds_AOT89663_A/Wisconsin/72/2016_2016-07-04_HA
+                                                                        |  |                                                                                                        +--|
+                                                                        |  |                                                                                                           +--cds_APC59094_A/Hawaii/73/2016_2016-09-16_HA
+                                                                        +--|
+                                                                           |  +--cds_AFH00461_A/Hong_Kong/42/1996_1996-03-04_HA
+                                                                           +--|
+                                                                              |  +--cds_ABG26901_A/New_York/702/1995_1995-01-09_HA
+                                                                              +--|
+                                                                                 +--cds_ABG67201_A/New_York/682/1995_1995-03-01_HA
+
+Tree in newick format:
+
+(cds_ABO44068_A/Albany/18/1968_1968_HA:0.2472697574,cds_AFG71865_A/Bilthoven/15793/1968_1968_HA:0.2442551497,((((cds_ABB96520_A/Nanjing/49/1977_1977_HA:2.0173775505,(cds_ABB80023_A/Hong_Kong/50/1972_1972_HA:1.2132637367,cds_ABB82227_A/Hong_Kong/46/1971_1971_HA:0.8145055145):0.2697180326):0.2916636893,cds_ABB80034_A/Hong_Kong/3/1969_1969_HA:0.5407831927):0.2004695683,(cds_ABN51132_A/Albany/3/1969_1969_HA:0.2976996532,cds_ABO52324_A/Albany/2/1970_1970_HA:0.7079934028):0.2679101716):0.1485093655,(cds_ABP49184_A/Memphis/3/1971_1971_HA:0.5561896449,(cds_AAZ43383_A/Memphis/102/1972_1972_HA:0.3655917452,((cds_ABD60790_A/Hong_Kong/33/1973_1973_HA:0.4652165035,cds_AFG99006_A/Bilthoven/628/1976_1976_HA:1.7519004349):0.2076886671,(cds_ABE12532_A/Port_Chalmers/1/1973_1973_HA:0.3497937908,((cds_ABB04294_A/Hong_Kong/14/1974_1974_HA:0.5378291362,cds_AFG98918_A/Bilthoven/5931/1974_1974_HA:0.4168012841):0.1043645435,((cds_ABB04928_A/Hong_Kong/43/1975_1975_HA:0.4828868565,(cds_ABQ01366_A/Albany/1/1976_1976_HA:0.9346620827,cds_CAA24270_A/Victoria/3/1975_1975_HA:0.3200199117):0.1685970880):0.2293832709,((cds_ABC46554_A/Memphis/19/1978_1978_HA:0.7578535641,cds_AFG99105_A/Texas/1/1977_1977_HA:0.3702978053):0.2155260391,(cds_ABO33069_A/Albany/14/1978_1978_HA:0.5263995983,(((cds_AFH00714_A/Bangkok/1/1979_1979_HA:0.1156335723,cds_AFM68976_A/Bangkok/1/1979_1979_HA:0.1264028124):0.2033828162,(cds_AFG72029_A/Rotterdam/577/1980_1980_HA:0.5824998268,((cds_AFG72040_A/Bilthoven/4791/1981_1981_HA:0.5172099818,cds_AFG99127_A/Lyon/2380/1981_1981_HA:0.5272437127):0.1073973662,cds_AFG99171_A/Oslo/13676/1983_1983_HA:1.0578484903):0.4784066325):0.2063153038):0.1838228498,(cds_ABB53751_A/Nanjing/13/1980_1980_HA:0.6796808221,(cds_AIU46023_A/Netherlands/233/1982_1982_HA:0.4385654435,(cds_ADJ41805_A/Philippines/2/1982_1982-06-01_HA:0.5508908683,(cds_ABD61529_A/Memphis/33/1983_1983_HA:0.3610056005,(cds_AHZ13523_A/Caen/1/1984_1984_HA:0.7054762261,(cds_ABB79799_A/Hong_Kong/4/1984_1984_HA:0.5881129806,((cds_ABC84531_A/Memphis/5/1985_1985_HA:0.5023883592,cds_AFG99204_A/Netherlands/333/1985_1985-02-01_HA:0.3835639953):0.2443481233,(cds_AAZ43370_A/Memphis/66/1986_1986_HA:0.7704643765,(cds_AFG99237_A/Colorado/2/1986_1986_HA:0.5906395992,((cds_AFG72085_A/Sichuan/2/1987_1987_HA:0.3722322004,(cds_ABB96509_A/Memphis/13/1988_1988_HA:0.7962793654,cds_AFM72120_A/Shanghai/11/1987_1987_HA:0.3527647163):0.1378302424):0.2160646313,(cds_AFG99270_A/England/427/1988_1988_HA:0.3663929227,((cds_AFG72140_A/Singapore/53/1989_1989_HA:0.4232935696,cds_AFG99369_A/Singapore/34/1989_1989_HA:0.4329625129):0.2673947547,((cds_AFG99479_A/Victoria/2/1990_1990_HA:0.3444562351,((cds_ADT79087_A/Netherlands/823/1992_1992_HA:0.4734763394,cds_AFG72162_A/Stockholm/20/1991_1991-12-17_HA:0.4421324211):0.5074611335,(cds_AFG99888_A/Paris/467/1991_1991-12-01_HA:0.5784891672,(cds_AFH00054_A/Victoria/68/1992_1992-07-17_HA:0.3866659895,cds_AFH00252_A/Paris/287/1993_1993_HA:0.6394855453):0.3807983981):0.4126301259):0.1532655206):0.3591394012,(cds_AFG99457_A/Shanghai/24/1990_1990_HA:0.4245206574,((cds_AIU46027_A/Wellington/1/1994_1994_HA:0.7867652514,(cds_AFH00175_A/Madrid/G252/1993_1993_HA:0.3898852719,(cds_AFG72504_A/England/7/1994_1994_HA:0.4174729262,((cds_ACF36379_A/Hong_Kong/CUHK4529/1997_1997-04-02_HA:0.6357113023,cds_ACT21466_A/New_York/537/1998_1998-02-05_HA:0.8922103817):0.3003893685,(cds_ABD77895_A/New_York/589/1996_1996-12-18_HA:0.3714918258,(cds_ABB80148_A/New_York/501/1997_1997-11-26_HA:0.4119795156,((cds_AAZ74397_A/New_York/316/1999_1999-01-26_HA:0.6789710525,cds_ACF36251_A/Hong_Kong/CUHK18886/1998_1998-10-03_HA:0.5608450642):0.2210194031,(cds_AEG64889_A/Missouri/NHRC0001/2000_2000-02-07_HA:1.0169220248,(cds_AAZ83266_A/New_York/252/1999_1999-01-12_HA:0.3073769272,(((cds_AAX56510_A/New_York/132/2002_2002-01-27_HA:1.2604177536,cds_ABI92511_A/Western_Australia/13/2001_2001-07-11_HA:0.9010322240):0.1954094796,cds_ABG80205_A/Waikato/4/2000_2000-08-28_HA:0.7830575208):0.1534296637,(cds_ACF36383_A/Hong_Kong/CUHK50080/2001_2001-11-08_HA:0.5590966229,(cds_ABS76426_A/Thailand/Siriraj-06/2002_2002_HA:0.5067304723,(cds_AAZ32950_A/Moscow/328/2003_2003_HA:0.4890743632,(cds_ACF36391_A/Hong_Kong/CUHK50895/2003_2003-07-06_HA:0.6771725303,(cds_ACO36496_A/Hong_Kong/HKU19/2004_2004-06-01_HA:0.7501547865,((cds_AAZ79985_A/New_York/385/2004_2004-12-28_HA:0.5780331335,(cds_ABU92679_A/Denmark/64/2006_2006_HA:0.7503814776,cds_AIW60700_A/BRISBANE/3/2005_2005_HA:0.4166380694):0.1856753276):0.1853843539,(cds_ACH69569_A/Guangdong/07/2005_2005_HA:0.3054027798,(cds_AEG65076_A/Illinois/NHRC0001/2006_2006-02-15_HA:0.6455095441,(cds_ABV30261_A/Texas/UR06-0480/2007_2007-03-02_HA:0.7958886601,(cds_ANN44926_A/Kenya/01/2008_2008_HA:0.7141642980,(cds_AJJ98777_A/Thailand/SS07028/2007_2007-09-26_HA:0.6065430802,(cds_ACF10331_A/Iowa/02/2008_2008-03-23_HA:0.6210205810,(cds_ALM05067_A/Bhutan/FLU_BTD_SV0023_CP2/2009_2009-01-15_HA:0.5141972096,((cds_ADK22399_A/Acre/26954/2010_2010-04-04_HA:0.8052942336,cds_AFM71754_A/Wisconsin/15/2009_2009_HA:0.3936553458):0.2470053982,(cds_AGK74708_A/Michigan/01/2011_2011-01-04_HA:0.7875077538,(cds_AGK74652_A/Texas/06/2010_2010-08-13_HA:0.4886490092,(cds_AGK63003_A/Hormozgan/807/2012_2012-01-04_HA:0.8927887035,(cds_AFN19527_A/Singapore/KK316/2011_2011-08-08_HA:0.3347210211,(cds_BAT21792_A/Ishikawa/45-389v/2012_2012-01-26_HA:0.4545763501,(cds_BAU36354_A/Okinawa/JP-69/2014_2014-02-10_HA:1.0640812735,(cds_AGZ61170_A/North_Carolina/02/2013_2013-01-03_HA:0.5602822187,(cds_AHL97288_A/Boston/YGA_01114/2013_2013-01-01_HA:0.3830015172,(cds_AJE62947_A/Thailand/CU-B11065/2014_2014-10-14_HA:0.5975221437,(cds_ALH36051_A/Oregon/06/2015_2015-03-04_HA:0.4853257451,(cds_APB91093_A/West_Virginia/04/2015_2015-01-26_HA:0.3491652719,(cds_AOT89663_A/Wisconsin/72/2016_2016-07-04_HA:0.4397724293,cds_APC59094_A/Hawaii/73/2016_2016-09-16_HA:0.5268954677):0.6448730701):0.1134521255):0.3161020668):0.5482348745):0.1889005586):0.1383020994):0.2112107588):0.3334762174):0.2110932560):0.3984732971):0.2053218447):0.5779950227):0.2167466612):0.4357136899):0.1102327407):0.1463473672):0.4919511753):0.3418067950):0.1851592737):0.3949771676):0.2971269228):0.2457709989):0.1411662572):0.4040168913):0.1982413956):0.8626344434):0.2348339404):0.2200641468):0.3748625986):0.0985275737):0.4024240632):0.3508408940):0.8104481511):0.1848496807):0.2871792521):0.1427028889,(cds_AFH00461_A/Hong_Kong/42/1996_1996-03-04_HA:0.9583031288,(cds_ABG26901_A/New_York/702/1995_1995-01-09_HA:0.2302381338,cds_ABG67201_A/New_York/682/1995_1995-03-01_HA:0.3821385570):0.4137786436):0.4182900933):0.8447869208):0.2250690251):0.5329402032):0.2016155702):0.5650441095):0.4361842477):0.1626916241):0.4889026987):0.4272391789):0.1312300336):0.1108368098):0.6148943007):0.1309693397):0.9142721077):0.1179683497):0.5502149382):0.3951763599):0.7438651900):0.3813407906):0.3177838795):0.2583673019):0.1824857289):0.7358907428):0.6654104080):0.5694818909);
+
+ALISIM COMMAND
+--------------
+Currently, we only support exporting AliSim commands automatically from the analysis for common models of DNA, Protein, Binary, and Morphological data. To simulate data from other models (mixture, lie-markov, etc), please refer to the User Manual of AliSim. Thanks!
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Aug 17 14:39:58 2026
+Total CPU time used: 546.749 seconds (0h:9m:6s)
+Total wall-clock time used: 549.316 seconds (0h:9m:9s)
+
